@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root, html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: rgb(41, 41, 41);
+}
+
+.competitors {
+  /* align-items: center; */
+  /* margin: auto; */
+  border: 1px solid white;
+}
+
+.seeds-number {
+  color: white;
+  display: inline-block;
+}
+
+h3 {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.record-input {
+  width: 50px;
+  font-size: 1rem;
+}
+
+
+
+/* Navbar */
+.Nav {
+
+}
+
+.Nav-list {
+
+}
+
+.Nav-list-item {
+  color: white;
+}
+
+
+/* Competitor */
+
+.Competitor-box {
+  display: block;
+  border: 1px solid black;
+  background-color: rgb(86, 86, 86);
+  color: white;
+  width: 200px;
+}
+
+/* .Competitor-box2 {
+  display: inline-block;
+  border: 1px solid black;
+  background-color: rgb(176, 176, 176);
+  color: white;
+  width: 50px;
+} */
+
+.Competitor-box-item {
+  display: inline-block;
+}
+
+.Competitor-box-item-name {
+  margin-right: 10px;
+}
+
+
+
+/* Match */
+
+.Match {
+
+}
